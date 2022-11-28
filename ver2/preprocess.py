@@ -23,10 +23,10 @@ __author__ = "Yu-Hsiang Huang"
 
 
 _TRAIN_DATA_SOURCES = [
-    {"url": "http://data.statmt.org/wmt17/translation-task/" \
-             "training-parallel-nc-v12.tgz",
-     "trg": "news-commentary-v12.de-en.en",
-     "src": "news-commentary-v12.de-en.de"},
+    {"url": "https://data.statmt.org/wmt16/translation-task/" \
+             "training-parallel-nc-v11.tgz",
+     "trg": "news-commentary-v11.de-en.en",
+     "src": "news-commentary-v11.de-en.de"},
     #{"url": "http://www.statmt.org/wmt13/training-parallel-commoncrawl.tgz",
     # "trg": "commoncrawl.de-en.en",
     # "src": "commoncrawl.de-en.de"},
@@ -36,7 +36,7 @@ _TRAIN_DATA_SOURCES = [
     ]
 
 _VAL_DATA_SOURCES = [
-    {"url": "http://data.statmt.org/wmt17/translation-task/dev.tgz",
+    {"url": "http://data.statmt.org/wmt16/translation-task/dev.tgz",
      "trg": "newstest2013.en",
      "src": "newstest2013.de"}]
 
